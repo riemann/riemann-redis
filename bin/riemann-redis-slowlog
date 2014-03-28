@@ -2,7 +2,7 @@
 
 # Gathers Redis SLOWLOG statistics and submits them to Riemann.
 
-require File.expand_path('../../lib/riemann/tools', __FILE__)
+require 'riemann/tools'
 
 class Riemann::Tools::RedisSlowlog
   include Riemann::Tools
