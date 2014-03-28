@@ -1,4 +1,4 @@
-Riemann Mysql
+Riemann Redis
 =============
 
 Simple redis riemann client.
