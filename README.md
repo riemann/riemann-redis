@@ -3,7 +3,7 @@ Riemann Mysql
 
 Simple redis riemann client.
 
-Submits the result of INFO [section] and slowlog query into riemann.
+Submits the result of INFO [section] and SLOWLOG query into riemann.
 
 Supports multiple sections by performing multiple INFO queries.
 
