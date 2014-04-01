@@ -15,3 +15,9 @@ gem install riemann-redis
 riemann-redis --help
 riemann-redis-slowlog --help
 ```
+
+Multiple --redis-sections can by specified, for example if you want to monitor both Memory and Replication
+
+``` bash
+riemann-redis --redis-section "Replication" --redis-section "Memory"
+```
