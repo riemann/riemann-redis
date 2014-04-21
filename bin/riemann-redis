@@ -56,7 +56,6 @@ class Riemann::Tools::Redis
           if property == "run_id"
             data[:metric] = 0
           end
-          puts data[:metric]
           report(data)
         end
       end
